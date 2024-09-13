@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toggle Selection Example</title>
+    <style>
+        .toggle-switch {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        .toggle-label {
+            display: flex;
+            cursor: pointer;
+            width: 80px;
+            height: 40px;
+            background-color: #ccc;
+            border-radius: 20px;
+            overflow: hidden;
+        }
+
+        .toggle-inner {
+            display: flex;
+            width: 200%;
+            transition: margin-left 0.3s;
+        }
+
+        .toggle-left, .toggle-right {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex: 1;
+            height: 100%;
+            color: #fff;
+        }
+
+        .toggle-left {
+            background-color: #2196F3;
+        }
+
+        .toggle-right {
+            background-color: #4CAF50;
+            margin-left: -100%;
+        }
+
+        .toggle-checkbox {
+            display: none;
+        }
+
+        .toggle-checkbox:checked + .toggle-label .toggle-inner {
+            margin-left: -100%;
+        }
+    </style>
+</head>
+<body>
+<h1>Toggle Selection Example</h1>
+
+<div class="toggle-switch">
+    <input type="checkbox" id="toggleDistanceDuration" class="toggle-checkbox" name="toggleOption">
+    <label for="toggleDistanceDuration" class="toggle-label">
+        <div class="toggle-inner">
+            <div class="toggle-left">Distance</div>
+            <div class="toggle-right">Duration</div>
+        </div>
+    </label>
+</div>
+
+<button onclick="getSelectedToggle()">Get Selected Toggle</button>
+
+<script>
+    function getSelectedToggle() {
+        const toggleCheckbox = document.getElementById('toggleDistanceDuration');
+        const selectedOption = toggleCheckbox.checked ? 'Duration' : 'Distance';
+        alert(`Selected option: ${selectedOption}`);
+    }
+</script>
+</body>
+</html>

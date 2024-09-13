@@ -1,0 +1,13 @@
+<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+<script src="{{ url_for('static', filename='js/script.js') }}"></script>
+
+api-key 77b44226d3msh748656f9602d315p1d8a05jsn364acfe864e4 - > trueway matrix
+api-key 6eb5581439ce4d42abe9ab82b47fa0c2 -> open cage  -> Geocoding
+api-key '5b3ce3597851110001cf624811aeae19b13b4e97acb331b8d70c3d2b' OpenRouteServices
+
+input:
+17.400959 78.565839 UPPAL
+17.433374 78.446831 Punjagutta
+17.471676  78.426117 Moosapet metro
+17.438353 78.363965 Gachibowli
+17.419899 78.524054 ou

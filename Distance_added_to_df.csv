@@ -1,0 +1,5 @@
+,city_name,latitude,longitude,city_index,city_name_next,latitude_next,longitude_next,city_index_next,Distance_Segment
+0,UPPAL,17.400959,78.565839,0,ou,17.419899,78.524054,1,6.98
+1,ou,17.419899,78.524054,1, Punjagutta,17.433374,78.446831,2,11.62
+2, Punjagutta,17.433374,78.446831,2,Gachibowli,17.438353,78.363965,3,11.55
+3,Gachibowli,17.438353,78.363965,3, Moosapet metro,17.471676,78.426117,4,11.68

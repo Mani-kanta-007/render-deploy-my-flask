@@ -1,0 +1,5 @@
+,city_name,latitude,longitude,city_index,city_name_next,latitude_next,longitude_next,city_index_next
+0,"Hyderabad, India",17.3887859,78.4610647,0,"Goa, India",15.3004543,74.0855134,1
+1,"Goa, India",15.3004543,74.0855134,1,"Mumbai, Maharashtra, India",19.0815772,72.8866275,4
+2,"Mumbai, Maharashtra, India",19.0815772,72.8866275,4,"Delhi, India",28.6273928,77.1716954,2
+3,"Delhi, India",28.6273928,77.1716954,2,"Kolkata, India",22.5726459,88.3638953,3
